@@ -25,7 +25,7 @@ Hi, I'm Nguyễn Đức Tuệ (ilcde) 👋<br><br>I'm a Computer Science student
 [![](https://komarev.com/ghpvc/?username=ilcde&icon=4&color=0)](https://visitcount.itsvg.in)
 
   ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/Coming soon...) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/Coming soon...) [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/Coming soon...) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/Coming soon...) 
+  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](Coming soon <!--https://buymeacoffee.com/Coming soon... -->) [![PayPal](Comming soon <!-- https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white -->)](https://paypal.me/Coming soon...) [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](Coming soon <!-- https://patreon.com/Coming soon... -->) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](Coming soon <!-- https://ko-fi.com/Coming soon... -->) 
 
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
