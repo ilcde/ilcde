@@ -25,6 +25,7 @@
   <h3 align="center">🛠️ Tech Stack</h3>
  
 <div align="center">
+  
 **Frontend & Mobile**
 <br/>
 <img src="https://skillicons.dev/icons?i=js,ts,html,css,angular,tailwind,bootstrap,androidstudio,swift" />
@@ -60,15 +61,17 @@
 <h3 align="center">🏆 Trophies </h3>
  
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=ilcde&theme=radical&no-frame=true&no-bg=false&margin-w=8&row=1"/>
+<img src="https://github-profile-trophy-fork-two.vercel.app/?username=ilcde&theme=radical&no-frame=true&no-bg=false&margin-w=8&row=1"/>
 </div>
 <br/>
+
 
 <h3 align="center">🔝 Top Contributed Repo</h3>
  
 <div align="center">
-<img src="https://github-contributor-stats.vercel.app/api?username=ilcde&limit=5&theme=radical&combine_all_yearly_contributions=true"/>
-</div>
+<!--<img src="https://github-contributor-stats.vercel.app/api?username=ilcde&limit=5&theme=radical&combine_all_yearly_contributions=true"/>
+</div>-->
+<p align="center"> Close for now. </p>
 <br/>
 
 <h3 align="center">💬 Random Dev Quote </h3>
