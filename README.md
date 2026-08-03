@@ -12,7 +12,7 @@
 <img src="https://komarev.com/ghpvc/?username=ilcde&style=for-the-badge&color=00C4CC&label=PROFILE+VIEWS" alt="profile views"/>
 </div>
 <br/>
-## 🧠 About Me
+                                                                      🧠 About Me
  
 > I don't just memorize dry theories — I ask **"Why?"** and **"What if?"** until a hard concept boils down to something I could explain to a 10-year-old. That curiosity is the thread connecting everything below, from REST APIs down to bare-metal Assembly.
  
