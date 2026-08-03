@@ -1,31 +1,49 @@
-# 💫 About Me (i use fedora linux btw):
-Hi, I'm Nguyễn Đức Tuệ (ilcde) 👋<br><br>I'm a Computer Science student with a split focus: building high-performance fullstack applications to pay the bills, and digging into low-level systems programming just for the sheer joy of understanding how computers work.<br><br>🧠 My Learning Philosophy<br><br> - I don't just memorize dry theories. I love asking "Why?" and "What if?" to strip away the complexity of hard concepts, translating them into simple, everyday analogies. If I can't explain a system concept or a complex algorithm to a 10-year-old, I don't truly understand it yet. This curiosity drives everything I build—from high-level web apps to low-level assembly.<br><br>💼 Commercial Stack (What I use to build & earn)<br><br> - My primary focus is Fullstack Web & Mobile development, with a strong emphasis on modern Frontend architectures and robust enterprise backends.<br><br> 🎨 Frontend & Mobile<br><br> - Languages: JavaScript (ES6+), TypeScript, HTML5, CSS3.<br><br> - Frameworks & UI: Angular , Tailwind CSS, Bootstrap. <br><br> - Mobile development: android & swift <br><br>⚙️ Backend, Databases & Infrastructure<br><br> - Backend Framework: Spring Boot (Java).<br><br> - Databases: Redis (Caching/Session), PostgreSQL (Relational), MongoDB (NoSQL).<br><br> - Containers & DevOps: Docker , podman<br><br>🐧 Low-Level & Systems (My actual passion)<br><br> - When I'm not writing APIs or styling interfaces, I'm diving down the rabbit hole of Operating Systems and Kernel development. Currently learning how the software communicates directly with the bare metal.<br><br> - Languages I use & learn:<br><br> - C / C++ – For foundational systems programming and OS concepts.<br><br> - Rust – For memory-safe, high-performance modern systems.<br><br> - Assembly – To talk directly to the CPU and understand the hardware.<br><br>🚀 What I'm active on right now<br><br>📚 Grinding Data Structures & Algorithms (DSA) to level up my problem-solving skills from the ground up.<br><br>🛠️ Building side projects using Spring Boot + Angular to optimize and speed up my commercial workflow.<br><br>🕹️ Reading about kernel architectures and writing tiny programs in Assembly & C/Rust.
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:00C4CC&height=220&section=header&text=Nguyễn%20Đức%20Tuệ&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=aka%20ilcde%20%7C%20fedora%20linux%20btw&descAlignY=58&descSize=18" width="100%"/> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00C4CC&center=true&vCenter=true&width=650&lines=Fullstack+Developer+by+trade;Systems+%2F+Kernel+tinkerer+by+passion;C+%2F+C%2B%2B+%2F+Rust+%2F+Assembly;Currently+grinding+DSA+%F0%9F%93%9A" alt="Typing SVG" /> </a> <br/>
 
+<a href="https://discord.gg/ilovecode"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/></a> <a href="https://facebook.com/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a> <a href="https://youtube.com/"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a> <a href="mailto:tue135897@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/ilovecode) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/In-Progress...) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@SOON) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tue135897@gmail.com) 
+<img src="https://komarev.com/ghpvc/?username=ilcde&style=for-the-badge&color=00C4CC&label=PROFILE+VIEWS" alt="profile views"/> </div> <br/>
+🧠 About Me
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Angular](https://img.shields.io/badge/angular-%23E23237.svg?style=for-the-badge&logo=angular&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Puppeteer](https://img.shields.io/badge/Puppeteer-%2340B5A4.svg?style=for-the-badge&logo=Puppeteer&logoSize=auto&logoColor=black) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white) ![Jellyfin](https://img.shields.io/badge/jellyfin-%23000B25.svg?style=for-the-badge&logo=Jellyfin&logoColor=00A4DC) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=ilcde&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=ilcde&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=ilcde&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+I don't just memorize dry theories — I ask "Why?" and "What if?" until a hard concept boils down to something I could explain to a 10-year-old. That curiosity is the thread connecting everything below, from REST APIs down to bare-metal Assembly.
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=ilcde&theme=onedark&no-frame=false&no-bg=false&margin-w=4)
+🎓 CS student, splitting time between shipping fullstack products and going down OS / kernel rabbit holes for fun
+💼 Pay-the-bills stack: modern frontend architectures + robust enterprise backends
+🐧 For-the-joy-of-it stack: Operating Systems, kernel internals, and talking straight to the CPU
+📚 Right now: grinding DSA, building Spring Boot + Angular side projects, and reading kernel source in my spare time
+🐧 Daily driver: Fedora Linux (btw)
+<br/>
+🛠️ Tech Stack
+<div align="center">
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+Frontend & Mobile <br/> <img src="https://skillicons.dev/icons?i=js,ts,html,css,angular,tailwind,bootstrap,androidstudio,swift" />
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=ilcde&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<br/><br/>
 
----
-[![](https://komarev.com/ghpvc/?username=ilcde&icon=4&color=0)](https://visitcount.itsvg.in)
+Backend, Databases & Infra <br/> <img src="https://skillicons.dev/icons?i=java,spring,redis,postgres,mongodb,mysql,docker,nginx" />
 
-  ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](Coming soon <!--https://buymeacoffee.com/Coming soon... -->) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](Coming soon <!-- https://paypal.me/Coming soon... -->) [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](Coming soon <!-- https://patreon.com/Coming soon... -->) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](Coming soon <!-- https://ko-fi.com/Coming soon... -->) 
+<br/><br/>
 
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+Low-Level & Systems — my actual passion <br/> <img src="https://skillicons.dev/icons?i=c,cpp,rust" />   <img src="https://img.shields.io/badge/Assembly-654FF0?style=for-the-badge&logo=nasm&logoColor=white"/>
+
+<br/><br/>
+
+Tooling <br/> <img src="https://skillicons.dev/icons?i=git,github,figma,postman,cmake,vscode,linux,py" />
+
+</div> <br/>
+📊 GitHub Stats
+<div align="center"> <img height="165em" src="https://github-readme-stats.shion.dev/api?username=ilcde&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=00C4CC&icon_color=00C4CC"/> <img height="165em" src="https://github-readme-stats.shion.dev/api/top-langs/?username=ilcde&theme=radical&hide_border=true&include_all_commits=true&count_private=true&layout=compact&bg_color=0D1117&title_color=00C4CC"/> <img src="https://streak-stats.demolab.com/?user=ilcde&theme=radical&hide_border=true&background=0D1117&ring=00C4CC&fire=00C4CC&currStreakLabel=00C4CC" width="70%"/> </div> <br/>
+🏆 Trophies
+<div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=ilcde&theme=radical&no-frame=true&no-bg=false&margin-w=8&row=1"/> </div> <br/>
+🔝 Top Contributed Repo
+<div align="center"> <img src="https://github-contributor-stats.vercel.app/api?username=ilcde&limit=5&theme=radical&combine_all_yearly_contributions=true"/> </div> <br/>
+💬 Random Dev Quote
+<div align="center"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/> </div> <br/>
+☕ Support
+<div align="center">
+
+<a href="#"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/></a> <a href="#"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"/></a> <a href="#"><img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white"/></a>
+
+(links coming soon)
+
+</div> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C4CC,50:2C5364,100:0F2027&height=120&section=footer" width="100%"/>
