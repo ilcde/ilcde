@@ -63,12 +63,14 @@
 <img src="https://github-profile-trophy.vercel.app/?username=ilcde&theme=radical&no-frame=true&no-bg=false&margin-w=8&row=1"/>
 </div>
 <br/>
+
 <h3 align="center">🔝 Top Contributed Repo</h3>
  
 <div align="center">
 <img src="https://github-contributor-stats.vercel.app/api?username=ilcde&limit=5&theme=radical&combine_all_yearly_contributions=true"/>
 </div>
 <br/>
+
 <h3 align="center">💬 Random Dev Quote </h3>
  
 <div align="center">
