@@ -22,7 +22,7 @@
 - 📚 Right now: grinding **DSA**, building **Spring Boot + Angular** side projects, and reading kernel source in my spare time
 - 🐧 Daily driver: **Fedora Linux** (btw)
 <br/>
-## 🛠️ Tech Stack
+  <h3 align="center">🛠️ Tech Stack</h3>
  
 <div align="center">
 **Frontend & Mobile**
@@ -49,7 +49,7 @@
  
 </div>
 <br/>
-## 📊 GitHub Stats
+<h3 align="center">📊 GitHub Stats </h3>
  
 <div align="center">
 <img height="165em" src="https://github-readme-stats.shion.dev/api?username=ilcde&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=00C4CC&icon_color=00C4CC"/>
@@ -57,25 +57,25 @@
 <img src="https://streak-stats.demolab.com/?user=ilcde&theme=radical&hide_border=true&background=0D1117&ring=00C4CC&fire=00C4CC&currStreakLabel=00C4CC" width="70%"/>
 </div>
 <br/>
-## 🏆 Trophies
+<h3 align="center">🏆 Trophies </h3>
  
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=ilcde&theme=radical&no-frame=true&no-bg=false&margin-w=8&row=1"/>
 </div>
 <br/>
-## 🔝 Top Contributed Repo
+<h3 align="center">🔝 Top Contributed Repo</h3>
  
 <div align="center">
 <img src="https://github-contributor-stats.vercel.app/api?username=ilcde&limit=5&theme=radical&combine_all_yearly_contributions=true"/>
 </div>
 <br/>
-## 💬 Random Dev Quote
+<h3 align="center">💬 Random Dev Quote </h3>
  
 <div align="center">
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
 </div>
 <br/>
-## ☕ Support
+<h3 align="center">☕ Support </h3>
  
 <div align="center">
 <a href="#"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/></a>
