@@ -61,8 +61,9 @@
 <h3 align="center">🏆 Trophies </h3>
  
 <div align="center">
-<img src="https://github-profile-trophy-fork-two.vercel.app/?username=ilcde&theme=radical&no-frame=true&no-bg=false&margin-w=8&row=1"/>
-</div>
+<!--<img src="https://github-profile-trophy-fork-two.vercel.app/?username=ilcde&theme=radical&no-frame=true&no-bg=false&margin-w=8&row=1"/>
+</div>-->
+<p align="center"> <ERROR> WILL FIX NEAR FUTURE </p>
 <br/>
 
 
