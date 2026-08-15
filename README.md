@@ -1,138 +1,223 @@
-I'll start by checking what GitHub tools I have available and confirming your account.
+<div align="center">
 
-I hit one blocker: your GitHub connection can read your account (confirmed as **ilcde**) and can push code, but the token isn't allowed to *create* new repositories (`403` from GitHub on repo creation).
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:00C4CC&height=220&section=header&text=Nguy%E1%BB%85n%20%C4%90%E1%BB%A9c%20Tu%E1%BB%87&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=aka%20ilcde%20%7C%20fedora%20linux%20btw&descAlignY=58&descSize=18" alt="Nguyễn Đức Tuệ — aka ilcde | fedora linux btw" width="100%"/>
 
-Everything else is ready to go — here's what I have planned for `chttp`, a dependency-free HTTP/1.1 server library in C11:
+<a href="https://github.com/DenverCoder1/readme-typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00C4CC&center=true&vCenter=true&width=650&lines=Fullstack+Developer+by+trade;Systems+%2F+Kernel+tinkerer+by+passion;C+%2F+C%2B%2B+%2F+Rust+%2F+Assembly;Currently+grinding+DSA+%F0%9F%93%9A" alt="Fullstack developer by trade, systems and kernel tinkerer by passion"/>
+</a>
 
-**Structure**
+<br/>
 
-- `include/chttp.h` — public API; `src/` — buffer, URL/percent-decoding, incremental request parser (Content-Length + chunked), response builder, router with `:params`/wildcards, MIME table, static-file handler (ETag, 304, byte ranges), poll-based non-blocking event loop with keep-alive and idle timeouts
-- `examples/` — hello world + static file server, `tests/` — unit + socket integration tests, `Makefile`, `.clang-format`, GitHub Actions CI, `docs/architecture.md`
+<!-- TODO: replace with your real invite / profile URLs -->
+<a href="https://discord.gg/ilovecode"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
+<a href="https://facebook.com/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
+<a href="https://youtube.com/"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
+<a href="mailto:tue135897@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
-**Commit history** (~14 commits, one logical section each, conventional-commit style, e.g.)
+<br/><br/>
 
-`chore: add build scaffolding and license` → `feat(buffer): growable byte buffer` → `feat(url): percent-decoding and query parsing` → `feat(http): status and method tables` → `feat(parser): incremental HTTP/1.1 request parser` → `feat(parser): chunked transfer decoding` → `feat(response): response builder` → `feat(router): pattern routing with 405 handling` → `feat(net): poll event loop` → `feat(static): file handler with ETag and ranges` → `test:` → `docs:` → `ci:`
+<img src="https://komarev.com/ghpvc/?username=ilcde&style=for-the-badge&color=00C4CC&label=PROFILE+VIEWS" alt="Profile views"/>
+<img src="https://img.shields.io/github/followers/ilcde?style=for-the-badge&color=00C4CC&labelColor=0D1117&logo=github&logoColor=white" alt="GitHub followers"/>
 
-Code will be self-documenting (clear names, small functions), with comments reserved for *why* — RFC references, framing rules, edge cases — not line-by-line narration.
+<br/><br/>
 
-I just need the empty repo to exist first:
+<a href="#about-me"><img src="https://img.shields.io/badge/About-0D1117?style=for-the-badge&labelColor=0D1117&color=2C5364" alt="About"/></a>
+<a href="#featured-projects"><img src="https://img.shields.io/badge/Projects-0D1117?style=for-the-badge&labelColor=0D1117&color=2C5364" alt="Projects"/></a>
+<a href="#tech-stack"><img src="https://img.shields.io/badge/Stack-0D1117?style=for-the-badge&labelColor=0D1117&color=2C5364" alt="Stack"/></a>
+<a href="#github-stats"><img src="https://img.shields.io/badge/Stats-0D1117?style=for-the-badge&labelColor=0D1117&color=2C5364" alt="Stats"/></a>
 
-The repo isn't on GitHub yet. While you create it, let me write and compile the whole project locally so the pushes are instant and the code is verified.
+</div>
 
-Computer sandbox is available — I'll build and verify the whole library there first, then push it in ordered commits.
+---
 
-I'll write the remaining project files in parallel batches.
+<a id="about-me"></a>
+<h3 align="center">🧠 About Me</h3>
 
-Fixing a bounds check I spotted in the URL decoder, then continuing with the parser.
+> I don't just memorize dry theories — I ask **"Why?"** and **"What if?"** until a hard concept boils down to something I could explain to a 10-year-old. That curiosity is the thread connecting everything below, from REST APIs down to bare-metal Assembly.
 
-I'll continue writing the remaining modules in parallel.
+- 🎓 CS student, splitting time between **shipping fullstack products** and **going down OS / kernel rabbit holes for fun**
+- 💼 Pay-the-bills stack: modern frontend architectures + robust enterprise backends
+- 🐧 For-the-joy-of-it stack: Operating Systems, kernel internals, and talking straight to the CPU
+- 📚 Right now: grinding **DSA**, building **Spring Boot + Angular** side projects, and reading kernel source in my spare time
+- 🐧 Daily driver: **Fedora Linux** (btw)
 
-The GitHub token attached to this connection is read-only (both the tree API and the contents API returned 403 for `ilcde/chttp`), so I can't push directly. I'll build the real commit history locally and hand you a ready-to-push repo.
+---
 
-The project is finished, built, and tested — but I couldn't push it. Your `chttp` repo exists on GitHub, but the token behind this GitHub connection is **read-only** for it: both `POST /git/trees` and `PUT /contents/...` returned `403 Resource not accessible by personal access token`. So the history lives in `chttp.zip` above, `.git` folder and all 19 commits included.
+<a id="featured-projects"></a>
+<h3 align="center">🚀 Featured Projects</h3>
 
-## Two ways to publish it
+<div align="center">
 
-**A — you push (30 seconds):**
+<table>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/ilcde/chttp">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=ilcde&repo=chttp&theme=radical&hide_border=true&bg_color=0D1117&title_color=00C4CC&icon_color=00C4CC" alt="chttp"/>
+  </a>
+  <p><b>HTTP/1.1 from scratch in C11.</b><br/>
+  poll() event loop, incremental parser, router, chunked encoding, static files with ETag and byte ranges. Zero dependencies.<br/>
+  <code>C</code> <code>POSIX</code> <code>MIT</code></p>
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/ilcde/vylix">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=ilcde&repo=vylix&theme=radical&hide_border=true&bg_color=0D1117&title_color=00C4CC&icon_color=00C4CC" alt="vylix"/>
+  </a>
+  <p><b>Universal hybrid-safe microkernel.</b><br/>
+  Clean architecture, safety first, built for predictability and isolation over raw throughput today.<br/>
+  <code>Rust</code> <code>C++</code> <code>Assembly</code> <code>aarch64</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/ilcde/VortixOS">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=ilcde&repo=VortixOS&theme=radical&hide_border=true&bg_color=0D1117&title_color=00C4CC&icon_color=00C4CC" alt="VortixOS"/>
+  </a>
+  <p><b>An OS is coming....</b><br/>
+  The from-scratch operating system playground — bootloader upward, no training wheels.<br/>
+  <code>C</code> <code>Assembly</code> <code>osdev</code></p>
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/ilcde/high-performance-hybrid-web-scraper">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=ilcde&repo=high-performance-hybrid-web-scraper&theme=radical&hide_border=true&bg_color=0D1117&title_color=00C4CC&icon_color=00C4CC" alt="high-performance-hybrid-web-scraper"/>
+  </a>
+  <p><b>Hybrid scraping engine.</b><br/>
+  FastAPI and Playwright on top of a C++ cpr core, bridged with pybind11 — Python ergonomics, native speed.<br/>
+  <code>Python</code> <code>C++</code> <code>pybind11</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/ilcde/TaskPay">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=ilcde&repo=TaskPay&theme=radical&hide_border=true&bg_color=0D1117&title_color=00C4CC&icon_color=00C4CC" alt="TaskPay"/>
+  </a>
+  <p><b>Task manager + salary tracker.</b><br/>
+  Local-first PWA with no login and no cloud: your data stays on your machine.<br/>
+  <code>Java 21</code> <code>Spring Boot 3</code> <code>PWA</code> <code>H2</code></p>
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/ilcde/hubt-review-platform">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=ilcde&repo=hubt-review-platform&theme=radical&hide_border=true&bg_color=0D1117&title_color=00C4CC&icon_color=00C4CC" alt="hubt-review-platform"/>
+  </a>
+  <p><b>HUBT online review platform.</b><br/>
+  Nền tảng ôn tập trực tuyến: Spring Boot 4 backend, leaderboard API, integrated static frontend.<br/>
+  <code>Java</code> <code>Spring Boot 4</code> <code>JavaScript</code></p>
+</td>
+</tr>
+</table>
 
-```bash
-unzip chttp.zip && cd chttp
-git push -u origin main    # origin is already set to github.com/ilcde/chttp
-```
+</div>
 
-**B — I push:** give the token `Contents: Read and write` plus access to the `chttp` repo (GitHub → Settings → Developer settings → Fine-grained tokens → your token → Repository access + Permissions). Tell me when it's done and I'll replay all 19 commits onto `main` myself.
+<details>
+<summary><b>📂 More repositories</b></summary>
 
-## What's in it
+<br/>
 
-`chttp` — an HTTP/1.1 server library in C11, no dependencies beyond a POSIX libc. One `poll()` loop, one thread, non-blocking sockets, ~4,800 lines.
+| Repo | What it is | Stack |
+| :--- | :--- | :--- |
+| [system-monitor-pro](https://github.com/ilcde/system-monitor-pro) | Desktop system monitor with live resource graphs | `Python` `customtkinter` |
+| [StudyDiscipline](https://github.com/ilcde/StudyDiscipline) | Windows focus enforcer: blocks distractions, kills games, Strict Mode | `Python` |
+| [Portfolio](https://github.com/ilcde/Portfolio) | Personal portfolio site | `HTML` `CSS` `JS` |
+| [web_hoan_thien](https://github.com/ilcde/web_hoan_thien) | Coursework web build, finished version | `HTML` `CSS` |
+| [web_thiet_ke](https://github.com/ilcde/web_thiet_ke) | Web design exercises | `HTML` `CSS` |
 
-- **Parser**: incremental state machine over caller-owned bytes, so pipelining and byte-at-a-time delivery use the same path. Chunked bodies, chunk extensions, trailers, `Expect: 100-continue`.
-- **Correct framing**: `Date`, `Server`, `Content-Length` and `Connection` are written by the server; anything a handler sets for those is dropped, so a mis-framed response is impossible. `HEAD`, `204` and `304` handled properly.
-- **Router**: `/users/:id` captures, trailing-star wildcards, registration-order precedence, `405` with a real `Allow` header, `HEAD` falling back to `GET`.
-- **Static files**: MIME table, `ETag`, `Last-Modified`, `If-None-Match` → `304`, byte ranges → `206`/`416`, traversal rejection, streamed in 64 KiB slices.
-- **Hardened**: request line, header block, body, connection count and idle timeout all bounded → `413`/`414`/`417`/`431`/`501`/`505` where the RFC asks for them. `chttp_server_stop()` is signal-handler safe via a self-pipe.
-- **Style**: 4-space indent, 100-column limit, `.clang-format` and `.editorconfig` committed, warnings-clean under `-Wall -Wextra -Wpedantic -Wshadow -Wstrict-prototypes -Wcast-align`. Comments explain *why* (aliasing, underflow guards, poll rebuild rationale); the code carries the *what*.
+</details>
 
-Verified from a fresh `git clone` of the history: `make` builds clean, and all 5 test binaries pass — including `test_server.c`, which binds port 0, runs the loop on a second thread and drives it over a raw loopback socket. `make sanitize` couldn't run here (no libasan in this sandbox), which is why CI runs it for you.
+---
 
-```
-19 commits, 2026-08-01 → 2026-08-14
-chore: add build system, license and editor config
-feat(api): declare the public server and handler interface
-feat(buffer): add growable byte buffer
-feat(kv): add case-insensitive name/value list
-feat(util): add string, date and clock helpers
-feat(log): add levelled logging to stderr
-feat(http): add method and status tables
-feat(url): decode percent escapes and parse query strings
-feat(parser): add incremental HTTP/1.1 request parser
-feat(response): add response builder and header serialiser
-feat(router): match patterns, captures and allowed methods
-feat(mime): map file extensions to content types
-feat(static): serve files with etag, 304 and byte ranges
-feat(net): add poll event loop and connection state machine
-feat(examples): add hello world and static file servers
-test: cover buffer, url, parser and router
-test: drive a live server over loopback sockets
-docs: add readme, architecture notes and api reference
-ci: build and test on linux and macos
-```
+<a id="tech-stack"></a>
+<h3 align="center">🛠️ Tech Stack</h3>
 
-Conventional commits, one logical section each, spread across two weeks of evenings and weekends with bodies on the ones that deserve an explanation. Docs are `README.md`, `docs/architecture.md` (event loop, parser state machine, ownership rules, and what's deliberately missing) and `docs/api.md` (every public function and config field).
+<div align="center">
 
-Try it after unzipping:
+**Frontend & Mobile**
 
-```bash
-make examples && ./build/bin/hello 8080 &
-curl -i localhost:8080/hello/notion
-```
+<img src="https://skillicons.dev/icons?i=js,ts,html,css,angular,tailwind,bootstrap,androidstudio,swift" alt="JavaScript, TypeScript, HTML, CSS, Angular, Tailwind, Bootstrap, Android Studio, Swift"/>
 
-Retrying now — starting with the scaffolding commit to confirm write access works.
+**Backend, Databases & Infra**
 
-Still 403. Let me check what the connection can actually do right now.
+<img src="https://skillicons.dev/icons?i=java,spring,redis,postgres,mongodb,mysql,docker,nginx" alt="Java, Spring, Redis, PostgreSQL, MongoDB, MySQL, Docker, Nginx"/>
 
-Tried both write paths again — still blocked, and the failure is definitely permissions, not the repo or my payload:
+**Low-Level & Systems** — *my actual passion*
 
-| --- | --- | --- |
+<img src="https://skillicons.dev/icons?i=c,cpp,rust" alt="C, C++, Rust"/> &nbsp; <img src="https://img.shields.io/badge/Assembly-654FF0?style=for-the-badge&logo=nasm&logoColor=white" alt="Assembly"/>
 
-Reads succeed, so the token is valid and can see `chttp`. Every write is refused, so **Contents: Read and write** still isn't reaching this repo. Two likely reasons:
+**Tooling**
 
-1. **The repo isn't in the token's list.** You created `chttp` *after* the token was made. A fine-grained token set to "Only select repositories" won't cover it until you add it — bumping permissions alone won't help. Settings → Developer settings → Personal access tokens → Fine-grained tokens → your token → **Repository access** → add `chttp` (or switch to "All repositories"), and under **Permissions → Repository → Contents** pick **Read and write**.
-1. **You made a brand-new token instead of editing the old one.** Notion still holds the old token, so nothing changed on my side. In that case the GitHub connection needs to be reconnected before I can use the new one — say the word and I'll start that.
+<img src="https://skillicons.dev/icons?i=git,github,figma,postman,cmake,vscode,linux,py" alt="Git, GitHub, Figma, Postman, CMake, VS Code, Linux, Python"/>
 
-A quick way to tell which: if it's a *classic* token, it just needs the `repo` scope and covers every repo automatically.
+</div>
 
-Ping me once it's saved and I'll push all 19 commits straight away — no rework needed, everything is built and green on my side.
+---
 
-Meanwhile `chttp.zip` from my previous message is still the fastest route, and honestly the better history: pushing it keeps the real commit dates spread across 2026-08-01 → 08-14, whereas the API would stamp all 19 commits with today's date.
+<a id="github-stats"></a>
+<h3 align="center">📊 GitHub Stats</h3>
 
-```bash
-unzip chttp.zip && cd chttp && git push -u origin main
-```
+<div align="center">
 
-Got the file and pulled your live repo metadata. Writing the upgraded version now.
+<img height="165em" src="https://github-readme-stats.shion.dev/api?username=ilcde&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=00C4CC&icon_color=00C4CC" alt="ilcde's GitHub stats"/>
+<img height="165em" src="https://github-readme-stats.shion.dev/api/top-langs/?username=ilcde&theme=radical&hide_border=true&count_private=true&layout=compact&bg_color=0D1117&title_color=00C4CC" alt="Most used languages"/>
 
-Done — the upgraded `README.md` is above. Drop it into `ilcde/ilcde` and it renders as your profile.
+<br/><br/>
 
-**Real problems I found and fixed**
+<img src="https://streak-stats.demolab.com/?user=ilcde&theme=radical&hide_border=true&background=0D1117&ring=00C4CC&fire=00C4CC&currStreakLabel=00C4CC" width="70%" alt="GitHub streak"/>
 
-- **Two unclosed `<div>`s.** In *Trophies* and *Top Contributed Repo* the closing `</div>` was trapped *inside* the HTML comment (`</div>-->`), so those divs never closed and the `align="center"` leaked into every section below. This was quietly breaking your layout.
-- **`<ERROR> WILL FIX NEAR FUTURE`** — GitHub parses `<ERROR>` as an unknown HTML tag and deletes it, so visitors just saw a floating "WILL FIX NEAR FUTURE". Replaced.
-- **`https://git.io/typing-svg` is dead** — GitHub shut down the `git.io` shortener in 2022. The typing banner now links to the `readme-typing-svg` repo.
-- **No `alt` text on any image.** All 33 images now have it — matters for accessibility *and* because these card services get rate-limited, and broken cards will now show meaningful text instead of blank boxes.
-- **Trophies were entirely commented out.** Re-enabled with the official instance; your fork URL is kept as a commented mirror in case of rate limits.
-- **`include_all_commits=true` on the top-langs card** does nothing there — removed. Also fixed "Close for now." → "Closed for now."
-- **Dead links flagged with inline TODOs**, not silently left broken: `discord.gg/ilovecode`, plus `facebook.com/` and `youtube.com/` which point at site roots rather than your profiles, and the three `href="#"` support badges.
-- Cleaned up the ~60 spaces of stray indentation before *About Me* and the whitespace-only spacer lines.
+<br/><br/>
 
-**What makes it fancier**
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ilcde&theme=react-dark&bg_color=0D1117&color=00C4CC&line=00C4CC&point=FFFFFF&area=true&hide_border=true" width="100%" alt="Contribution activity graph"/>
 
-- **🚀 Featured Projects** right under About Me — six repo pin cards in a 2-column grid, `chttp` first, each with a one-line hook: the microkernel, VortixOS, the pybind11 scraper, TaskPay, and the HUBT platform. Your own descriptions were reused where you had them.
-- **📂 More repositories** — a collapsible table with the other five, so the profile stays short but nothing is hidden.
-- **Nav row** of badges jumping to About / Projects / Stack / Stats. Raw `<h3>` tags don't get auto-generated anchors, so I added explicit `<a id="...">` targets — verified each link has a matching id.
-- Followers badge beside profile views, and a **contribution activity graph** under the streak card.
-- `---` dividers between sections, and pin cards use the same `github-readme-stats.shion.dev` host you already chose rather than the rate-limited Vercel one, so the whole page loads from one instance in your `00C4CC` / `0D1117` theme.
+</div>
 
-Your wording is untouched — the "Why? / What if?" quote, all five bullets, every skillicons list, all section titles, and the capsule header/footer are byte-for-byte the same.
+---
 
-Two things to know: the `chttp` pin card will read *0 stars, no language* until you push those 19 commits, and I still can't write to your repos, so this one needs a commit from you as well. If you'd rather I try — `ilcde/ilcde` is an older repo and may already be inside your token's allowlist even though `chttp` isn't — say so and I'll attempt the push.
+<h3 align="center">🏆 Trophies</h3>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=ilcde&theme=radical&no-frame=true&no-bg=false&margin-w=8&margin-h=8&column=6&row=1" alt="GitHub trophies"/>
+
+<!-- Mirror if the official instance is rate limited:
+<img src="https://github-profile-trophy-fork-two.vercel.app/?username=ilcde&theme=radical&no-frame=true&no-bg=false&margin-w=8&row=1" alt="GitHub trophies"/>
+-->
+
+</div>
+
+---
+
+<h3 align="center">🔝 Top Contributed Repo</h3>
+
+<div align="center">
+
+<!-- Re-enable once the contributor-stats instance is reachable again:
+<img src="https://github-contributor-stats.vercel.app/api?username=ilcde&limit=5&theme=radical&combine_all_yearly_contributions=true" alt="Top contributed repositories"/>
+-->
+
+Closed for now.
+
+</div>
+
+---
+
+<h3 align="center">💬 Random Dev Quote</h3>
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random dev quote"/>
+
+</div>
+
+---
+
+<h3 align="center">☕ Support</h3>
+
+<div align="center">
+
+<!-- TODO: swap the # anchors for your real links, then delete this note -->
+<a href="#"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"/></a>
+<a href="#"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi"/></a>
+
+*(links coming soon)*
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C4CC,50:2C5364,100:0F2027&height=120&section=footer" alt="" width="100%"/>
